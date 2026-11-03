@@ -1,0 +1,16 @@
+pytest
+pytest-playwright
+pytest-html
+
+# Summary
+# TC	Page	   Test	                            Fixture used
+# 01	Login	   Valid login	                     login_page
+# 02	Login	   Wrong password error	             login_page
+# 03	Login	   Both fields empty error	         login_page
+# 04	Login	   Empty password error	             login_page
+# 05	Inventory	Sidebar links visible	         logged_in_page
+# 06	Inventory	Add product, badge shows 1	     logged_in_page
+# 07	Inventory	Sort price low to high	         logged_in_page
+# 08	Inventory	Logout	                         logged_in_page
+# 09	Cart	    Item shown, then removed	     logged_in_page
+# 10	Checkout	Full order, success message	     logged_in_page
